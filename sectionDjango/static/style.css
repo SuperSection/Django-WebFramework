@@ -8,9 +8,12 @@ html,body {
     height: 100%;
     width: 100%;
     font-family: Roboto;
+    background: #09053f;
+    color: #ffffff;
 }
 
 h2 {
+    font-size: 30px;
     padding: 20px;
     text-align: center;
 }

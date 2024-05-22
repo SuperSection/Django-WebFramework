@@ -1,16 +1,9 @@
-{% load static %}
+{% extends "layout.html" %}
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Super Section Django</title>
-    <link rel="stylesheet" href="{% static 'style.css' %}"></link>
+{% block title %}
+Contact Page
+{% endblock %}
 
-</head>
-    <h2>Contact Page in Django</h2>
-<body>
-    
-</body>
-</html>
+{% block content %}
+<h2>Contact Page in Django</h2>
+{% endblock %}
