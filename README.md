@@ -15,6 +15,7 @@
 **After thar in settings.py**
 
 Set NPM_BIN_PATH = 'C:/Program Files/nodejs/npm.cmd'
+<br>Change it according to your OS
 
 add in INSTALLED_APPS : <br>
 [ 'tailwind', 'theme', 'django_browser_reload' ]
@@ -26,7 +27,7 @@ add MIDDLEWARE : <br>
 
 **in urls.py** 
 add a urlpatterns: <br>
-[ path("__reload__/", include("django_browser_reload.urls")) ]
+[ path("__ reload __/", include("django_browser_reload.urls")) ]
 
 Then run the following command and start tailwind along with the server
 - `python manage.py tailwind install`
